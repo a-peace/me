@@ -1,5 +1,5 @@
 <template>
-  <img id="avatar" alt="my avatar" src="./assets/avatar.png">
+  <img id="avatar" alt="my avatar" src="../public/assets/avatar.png">
   <p>Автор картинки <a href="https://twitter.com/SH0R0KEN" class="ref">@SH0R0KEN</a> </p>
 
   <p>Пока данный сайт Состоит из одной странички и не несет никакой информации и функционала </p>
@@ -45,17 +45,4 @@ export default {
 </script>
 
 <style>
-#app,
-footer {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-
-.line-through {
-  text-decoration: line-through;
-}
 </style>
